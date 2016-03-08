@@ -1,0 +1,37 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\src\main\scala\Point.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\src\main\scala\Point.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\src\main\scala\Point.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler ac0b3d1, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_45\jre\classes;C:\Users\Redirection\sreedk2\.sbt\boot\scala-2.10.4\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\src\main\scala\Point.scala:6: invalid string interpolation: `$$', `$'ident or `$'BlockExpr expected[0m
+[0m[[31merror[0m] [0m      def draw(f: String => Unit):Unit = f(s"draw : $(this.toString}")[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0mC:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\src\main\scala\Point.scala:6: unclosed string literal[0m
+[0m[[31merror[0m] [0m      def draw(f: String => Unit):Unit = f(s"draw : $(this.toString}")[0m
+[0m[[31merror[0m] [0m                                                                    ^[0m
+[0m[[31merror[0m] [0mC:\Users\Redirection\sreedk2\workspace_scala\Programming Scala\src\main\scala\Point.scala:9: expected class or object definition[0m
+[0m[[31merror[0m] [0mcase class Circle(center: Point, radius: Double) extends Shape[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mthree errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
