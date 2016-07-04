@@ -1,0 +1,21 @@
+def merge1(xs: List[Int], ys: List[Int]): List[Int] =
+  (xs, ys) match {
+    case (Nil , ys ) => ys
+    case (xs , Nil ) => xs
+    case (x1 :: x1s, y1 :: y1s)  => if(x1 < y1) x1 ::  merge1(x1s, ys) else y1 ::  merge1(xs, y1s)
+  }
+
+merge1(List(2,4), List(1,3))
+
+object mergesort {
+  def msort(xs: List[Int]): List[Int] ={
+    val n = xs.length/2
+    if(n== 0) xs
+    else{
+     val  (frst, last) = xs splitAt n
+     merge1(msort(frst), msort(last))
+    }
+  }
+}
+
+mergesort.msort(List(6,5,4,3,2))
